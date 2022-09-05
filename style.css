@@ -1,3 +1,26 @@
+/* * {
+  box-sizing: border-box;
+} */
+
 body {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  display: flex;
+  width: 867px;
+  height: 487px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 106px -37px rgba(0, 0, 0, 1);
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.round-red {
+  background-color: rgb(204, 35, 35);
+  flex-basis: 250px;
+  border-radius: 50%;
+  min-height: 250px;
 }
